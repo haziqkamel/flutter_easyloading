@@ -199,6 +199,18 @@ class _LoadingIndicatorState extends State<LoadingIndicator> {
           size: _size,
         );
         break;
+      case EasyLoadingIndicatorType.waveSpinner:
+        _indicator = SpinKitWaveSpinner(
+          color: _indicatorColor,
+          size: _size,
+        );
+        break;
+      case EasyLoadingIndicatorType.pulsingGrid:
+        _indicator = SpinKitPulsingGrid(
+          color: _indicatorColor,
+          size: _size,
+        );
+        break;
       default:
         _indicator = SpinKitFadingCircle(
           color: _indicatorColor,
