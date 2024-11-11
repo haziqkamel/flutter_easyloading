@@ -1,3 +1,8 @@
+## [3.0.6] - 2024.11.11
+
+* Add new loading indicator types: waveSpinner and pulsingGrid
+* Update cupertino_icons version to 1.0.8 
+
 ## [3.0.5] - 2022.05.23
 
 * 🎉 It's support flutter 3.0 and previous version now 
